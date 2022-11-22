@@ -30,8 +30,14 @@
     <section class="card" id="git-section">
       <h2>Git</h2>
       <ul>
-        <li>git status: checks what branch we are currently on</li>
-        <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+        <li><b>git status:</b> checks what branch we are currently on and changes we have made</li>
+        <li><b>git pull origin main:</b> pulls down the latest main branch</li>
+        <li><b>git checkout -b feature/branch-name:</b> creates a new branch and switches to it (or you replace "feature" with "develop")</li>
+        <li><b>git add -A:</b> commits all files in the working branch, also called staging</li>
+        <li><b>git commit -m "added code to HTML file":</b> commits staging to our repository (the languaged quoted is the title of the pull request in github</li>
+        <li><b>git pull origin main:</b> makes sure that our current branch is up to date before opening a pull request; you want the message "Already up to date"</li>
+        <li><b>git push origin feature/branch-name:</b> pushes up all of your changes</li>
+        <li>then go to github repository and you should see a pending pull request</li>
       </ul>
     </section>
     <section class="card" id="javascript-section">
